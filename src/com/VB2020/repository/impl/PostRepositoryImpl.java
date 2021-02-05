@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.stream.Stream;
 
 public class PostRepositoryImpl implements PostRepository {
-    File fileName = new File("./src/com/vasbas/resource/Posts.txt");
+    File fileName = new File("./src/com/VB2020/resource/Posts.txt");
     LabelRepositoryImpl labelRepository = new LabelRepositoryImpl();
 
     @Override
