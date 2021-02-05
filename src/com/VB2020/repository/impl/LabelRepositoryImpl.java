@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.stream.Stream;
 
 public class LabelRepositoryImpl implements LabelRepository {
-    File fileName = new File("./src/com/vasbas/resource/Labels.txt");
+    File fileName = new File("./src/com/VB2020/resource/Labels.txt");
 
     //IO operations with file
     @Override
