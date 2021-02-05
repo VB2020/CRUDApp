@@ -13,7 +13,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.stream.Stream;
 
 public class WriterRepositoryImpl implements WriterRepository {
-    File fileName = new File("./src/com/vasbas/resource/Writers.txt");
+    File fileName = new File("./src/com/VB2020/resource/Writers.txt");
     LabelRepositoryImpl labelRepository = new LabelRepositoryImpl();
 
     @Override
